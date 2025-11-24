@@ -2,7 +2,7 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) system designed to handle complex financial documents containing text, tables, and images. It features a multi-modal ingestion pipeline and a QA chatbot interface capable of providing source-backed answers.
 
-## 🚀 Features
+## Features
 
 * **Multi-Modal Ingestion:** Extracts text, parses tables, and performs OCR on charts/images using Tesseract.
 * **Local Privacy:** Runs entirely offline using open-source models (No API keys required).
@@ -10,7 +10,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system designed t
 * **Source Attribution:** Every answer includes precise citations (Page #, Source Type, and Relevance Score).
 * **Automated Pipeline:** Single-script execution for data processing and embedding generation.
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 * **LLM:** `google/flan-t5-base` (via HuggingFace)
 * **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2`
@@ -19,7 +19,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system designed t
 * **PDF Processing:** PyMuPDF (Fitz)
 * **UI:** Streamlit
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 assignment/
@@ -38,7 +38,7 @@ assignment/
 ├── vector_store.py         # FAISS wrapper
 └── requirements.txt        # Python dependencies
 ```
-## ⚙️ Setup & Installation
+## Setup & Installation
 ### 1. System Prerequisites (Tesseract OCR)
 You must install Tesseract OCR on your machine for image processing to work.
 
